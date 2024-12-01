@@ -1,0 +1,11 @@
+[package]
+name = "day_1"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+utils = { path = "../utils"}
+
+[[bin]]
+name = "day_1"  # This ensures that `cargo run -p crate_b` knows what to run
+path = "src/main.rs"  # The path to the binary entry point (main.rs)
